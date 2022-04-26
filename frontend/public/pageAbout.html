@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="../src/assets/styles/pageAbout.css" />
+    <link rel="stylesheet" href="../src/assets/styles/pageAllPrints.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-container">
+          <div class="header-allItem">
+            <div class="header-item-left">
+              <div class="header-item-left-1">
+                <a href="pageAllPrints.html">All Prints</a>
+              </div>
+              <div class="header-item-left-2">
+                <a href="pageAbout.html">
+                  <span class="visually-hidden">About</span>
+                </a>
+              </div>
+            </div>
+            <div class="header-item-left-mobile">
+              <button>
+                <div class="button-menu-box">
+                  <div class="button-menu-inner">
+                    <div class="top-btn"></div>
+                    <div class="center-btn"></div>
+                    <div class="bottom-btn"></div>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div class="header-item-center">
+              <div class="header-item-center-1">
+                <a href="pageJay.html">Jay Montclaire</a>
+              </div>
+            </div>
+          </div>
+          <div class="header-item-right">
+            <div class="header-icon">
+              <a href="" class="icon icon--stroke">
+                <svg class="icon icon--cart" viewBox="0 0 31 24">
+                  <g class="svg-icon cart-icon--odd">
+                    <circle
+                      stroke-miterlimit="10"
+                      cx="22.5"
+                      cy="21.5"
+                      r="1"
+                    ></circle>
+                    <circle
+                      stroke-miterlimit="10"
+                      cx="9.5"
+                      cy="21.5"
+                      r="1"
+                    ></circle>
+                    <path
+                      fill="none"
+                      stroke-miterlimit="10"
+                      d="M0,1.5h5c0.6,0,1.1,0.4,1.1,1l1.7,13
+                  c0.1,0.5,0.6,1,1.1,1h15c0.5,0,1.2-0.4,1.4-0.9l3.3-8.1c0.2-0.5-0.1-0.9-0.6-0.9H12"
+                    ></path>
+                  </g>
+                </svg>
+                <span>0</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="main">
+        <div class="main-container">
+          <div class="main-content">
+            <div class="main-content-container">
+              <p class="main-title">About</p>
+              <h3 class="main-sub-title">
+                It all begins with an idea. Maybe you want to launch a business.
+                Maybe you want to turn a hobby into something more. Or maybe you
+                have a creative project to share with the world. Whatever it is,
+                the way you tell your story online can make all the difference.
+              </h3>
+              <p class="main-end-title">
+                Don’t worry about sounding professional. Sound like you. There
+                are over 1.5 billion websites out there, but your story is
+                what’s going to separate this one from the rest. If you read the
+                words back and don’t hear your own voice in your head, that’s a
+                good sign you still have more work to do.
+              </p>
+            </div>
+            <div class="main-line">
+              <hr />
+            </div>
+            <div class="main-contact">
+              <div class="main-contact-container">
+                <h4>
+                  email@example.com
+                  <br />
+                  <a href="http://www.instagram.com/squarespace">instagram</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-left">
+            <p>
+              Made with
+              <a href="">Squarespace</a>
+            </p>
+          </div>
+          <div class="footer-right">
+            <p>©JayMontclaire</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+<style>
+  .main-container {
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: 0 auto;
+  }
+  .main-content {
+    width: 50%;
+  }
+  .main-content-container {
+    padding-bottom: 17px;
+  }
+  .main-title {
+    margin-bottom: 16px;
+    font-size: calc((1.2 - 1) * 1.2vw + 1rem);
+  }
+  .main-sub-title {
+    margin: 32px 0;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-size: calc((2.2 - 1) * 1.2vw + 1rem);
+  }
+  .main-end-title {
+    margin-top: 16px;
+    line-height: 1.4em;
+    font-weight: 400;
+    font-size: calc((1.2 - 1) * 1.2vw + 1rem);
+  }
+  .main-line {
+    clear: both;
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
+  .main-line hr {
+    background-color: #000;
+    border: none;
+    height: 1px;
+  }
+  .main-contact {
+    padding-top: 17px;
+  }
+  .main-contact-container h4 {
+    font-size: calc((1.2 - 1) * 1.2vw + 1rem);
+    line-height: 1.4em;
+    font-weight: 400;
+    margin-bottom: 17px;
+  }
+  .main-contact-container h4 a {
+    text-decoration-line: underline;
+    text-underline-offset: 0.2em;
+  }
+  @media screen and (max-width: 767px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .header-item-center {
+      flex: 1 0 100%;
+    }
+    .header-item-right {
+      flex: 1 1 0%;
+    }
+  }
+</style>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="contact-page">
+      <header>
+        <h1>What Can We Help You With?</h1>
+      </header>
+      <section class="up-agenda text-center">
+        <div class="agenda">
+          <div class="bdy">
+            <div class="row">
+              <div class="medium-4 columns">
+                <div class="icon">
+                  <img src="../src/assets/images/Schedule-sales-call.svg" alt="" />
+                </div>
+                <h3>Schedule a Sales Call</h3>
+                <p>
+                  Learn about our platform, plans, and more during a 1-on-1 call
+                  with a sales manager.
+                </p>
+                <a href="#"
+                  >Schedule a Call <i class="fa-regular fa-arrow-right-long"></i
+                ></a>
+              </div>
+              <div class="medium-4 columns">
+                <div class="icon">
+                  <img src="../src/assets/images/Email-sale-team.svg" alt="" />
+                </div>
+                <h3>EMAIL SALES<br />TEAM</h3>
+                <p>
+                  Have a specific question for our sales team? Get the answers
+                  you need quickly via email.
+                </p>
+                <a href="#"
+                  >Contact Us <i class="fa-regular fa-arrow-right-long"></i
+                ></a>
+              </div>
+              <div class="medium-4 columns">
+                <div class="icon">
+                  <img src="../src/assets/images/Contact-customer-support.svg" alt="" />
+                </div>
+                <h3>CONTACT CUSTOMER SUPPORT</h3>
+                <p>
+                  Get immediate help with billing and technical issues.<strong>
+                    Current Duda customers only.
+                  </strong>
+                </p>
+                <a href="#"
+                  >Get Help Now <i class="fa-regular fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
+<style>
+  * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #2f373a;
+  background: #fff;
+  font-weight: 500;
+}
+
+.item-box .title,
+h1,
+h2,
+h3,
+header .sub-title,
+p,
+section.rate .container .item .txt {
+  letter-spacing: 0;
+}
+
+*::selection {
+  background: #f66135;
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 140px 15px 0;
+}
+
+header h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 64px;
+  max-width: 485px;
+  margin: auto;
+  letter-spacing: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #2f373a;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.up-agenda {
+  padding-top: 70px;
+}
+
+.row {
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+}
+
+.agenda {
+  display: block;
+  background-image: url(../src/assets/images/Background-left-contact.svg),
+    url(../src/assets/images/Background-right-contact.svg);
+  background-position: bottom 50px left, top right;
+  background-repeat: no-repeat;
+  max-width: 1300px;
+  margin: 0 auto 90px;
+  padding: 50px 20px 0;
+}
+
+.bdy {
+  max-width: 1030px;
+  padding: 75px 20px 0;
+  margin: auto;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 15px 40px 0 rgb(0 0 0 / 10%);
+}
+
+.columns {
+  margin-bottom: 75px;
+  padding: 0 15px;
+}
+
+.medium-4 {
+  width: 33.33333%;
+}
+
+.icon {
+  margin: 0 auto 25px;
+  min-height: 61px;
+}
+
+img {
+  border-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+.columns h3 {
+  margin: 0 auto 10px;
+  max-width: 230px;
+  font-size: 20px;
+  line-height: 32px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.columns p {
+  max-width: 350px;
+  margin: 0 auto 40px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.columns a {
+  cursor: pointer;
+  color: #f66135;
+  text-decoration: underline;
+  text-decoration: none;
+  font-weight: 600;
+
+  display: inline-block;
+  align-items: center;
+}
+
+.columns a:hover i {
+  transform: translateX(4px);
+}
+
+.columns a i {
+  font-size: 12px;
+  transition: transform 0.3s linear;
+  margin-left: 9px;
+}
+
+.medium-4 {
+  width: 33.33333%;
+}
+
+.columns:nth-child(2) p {
+  letter-spacing: 0.1px;
+}
+
+@media (max-width: 1024px) {
+  header h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 640px) {
+  header {
+    padding-top: 90px;
+  }
+  header h1 {
+    font-size: 28px;
+  }
+
+  .agenda {
+    background-image: url(../src/assets/images/Background-contact-mobile.svg);
+    background-position: center top 10px;
+  }
+
+  .up-agenda {
+    padding-top: 0;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .columns {
+    margin-bottom: 70px;
+  }
+
+  .medium-4 {
+    width: 100%;
+  }
+
+  .columns h3 {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .columns a {
+    font-size: 14px;
+  }
+
+  .icon,
+  .columns p {
+    margin: 0 auto 20px;
+  }
+
+  .columns h3 {
+    margin-bottom: 10px;
+  }
+}
+
+</style>
